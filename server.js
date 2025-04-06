@@ -19,10 +19,7 @@ connectdb();
 
 app.use(express.json());
 app.use(
-  cors({
-    origin: "https://green-heaven-seven.vercel.app/",
-    credentials: true,
-  })
+  cors()
 );
 app.use(express.urlencoded({ extended: true })); //html form submission
 
