@@ -35,3 +35,5 @@ app.use("/api/user/reset", resetRouter);
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+export default app;
