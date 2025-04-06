@@ -18,7 +18,12 @@ const port = process.env.PORT || 5000;
 connectdb();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://green-heaven-seven.vercel.app/",
+    credentials: true,
+  })
+);
 app.use(express.urlencoded({ extended: true })); //html form submission
 
 // API Endpoints
