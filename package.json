@@ -23,6 +23,7 @@
     "nodemailer": "^6.10.0",
     "nodemon": "^3.1.7",
     "razorpay": "^2.9.5",
+    "serverless-http": "^3.2.0",
     "stripe": "^17.4.0",
     "validator": "^13.12.0"
   }
